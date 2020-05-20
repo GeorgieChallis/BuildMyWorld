@@ -19,6 +19,8 @@ $ cd ../
 $ gazebo world/number25world-v2
 ```
 
+<img src="https://github.com/GeorgieChallis/RoboND_BuildMyWorld/blob/master/img/Gazebo.png" width="640">
+
 ### Directory Structure
 ```
     .RoboND_BuildMyWorld            # myrobot lab main folder              
