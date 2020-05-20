@@ -8,20 +8,32 @@ In the repository root directory:
 $ mkdir build
 ```
 
-```$ cd build```
+```
+$ cd build
+```
 
-`$ cmake ../`
+```
+$ cmake ../
+```
 
-`$ make`
+```
+$ make
+```
 
-`$ export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:/home/workspace/RoboND_BuildMyWorld/build`
+```
+$ export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:/home/workspace/RoboND_BuildMyWorld/build
+```
 
 ### Run in ROS
 Switch to `world` folder and run gazebo.
 
-`$ cd ~/workspace/RoboND_BuildMyWorld/world`
+```
+$ cd ~/workspace/RoboND_BuildMyWorld/world
+```
 
-`$ gazebo number25world-v2`
+```
+$ gazebo number25world-v2
+```
 
 ### Directory Structure
 ```
