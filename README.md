@@ -9,30 +9,31 @@ $ mkdir build
 $ cd build
 $ cmake ../
 $ make
-```
-
-```
-$ export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:/home/workspace/RoboND_BuildMyWorld/build
+$ export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:~/workspace/RoboND_BuildMyWorld/build
 ```
 
 ### Run in ROS
-Run gazebo: `$ gazebo number25world-v2`
+Change back to main repo directory and run gazebo: 
+```
+$ cd ../
+$ gazebo world/number25world-v2
+```
 
 ### Directory Structure
 ```
-    .myworld                           # myrobot lab main folder              
+    .RoboND_BuildMyWorld            # myrobot lab main folder              
     ├── model                          
-    │   ├── 4wheel		       # Model files for a 4 wheel 'robot' 
+    │   ├── 4wheel		            # Model files for a 4 wheel 'robot' 
     │   │   ├── model.config	       
     │   │   ├── model.sdf
-    │   ├── Number25		       # Model files for 2 basic rooms
+    │   ├── Number25		        # Model files for 2 basic rooms
     │   │   ├── model.config
     │   │   ├── model.sdf
-    ├── script                         # Gazebo World plugin C++ script      
+    ├── script                      # Gazebo World plugin C++ script      
     │   ├── hello.cpp
-    ├── world                          # Gazebo main World scene
+    ├── world                       # Gazebo main World scene
     │   ├── number25world-v2
-    ├── CMakeLists.txt                 # Link libraries 
+    ├── CMakeLists.txt              # Link libraries 
                              
 ```
 
