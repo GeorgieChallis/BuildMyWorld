@@ -25,15 +25,7 @@ $ export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:/home/workspace/RoboND_BuildMy
 ```
 
 ### Run in ROS
-Switch to `world` folder and run gazebo.
-
-```
-$ cd ~/workspace/RoboND_BuildMyWorld/world
-```
-
-```
-$ gazebo number25world-v2
-```
+Run gazebo: `$ gazebo number25world-v2`
 
 ### Directory Structure
 ```
