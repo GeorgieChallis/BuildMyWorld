@@ -6,17 +6,8 @@ Submission for Project 1 of the Udacity Robotics Nanodegree - introduction to Ga
 In the repository root directory:
 ```
 $ mkdir build
-```
-
-```
 $ cd build
-```
-
-```
 $ cmake ../
-```
-
-```
 $ make
 ```
 
